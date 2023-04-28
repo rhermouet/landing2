@@ -1,0 +1,125 @@
+body {
+  font-family: 'Instrument Serif', serif;;
+  background-color: #D9D9D9;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Instrument Serif', serif;;
+}
+
+a {
+  color: #B10D0D;
+  font-weight: medium;
+  text-decoration: underline dotted;
+  transition: .5s;
+}
+
+
+a:hover {
+  color: #D56F5D;
+}
+
+
+#entete {
+background-color:#7B61FF;
+text-align:center;
+color: #7B61FF
+}
+/*#contenu {
+margin-left:0px;
+background-color:#D9D9D9;
+}*/
+#footer {
+background-color:#585CE5;
+text-align:center;
+clear:both;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url("images/logo3.png");
+  background-size: contain;
+  background-position: bottom 50px right 100px;
+  margin-bottom: 50px;
+
+}
+
+.banner h1 {
+  color: #FF0909;
+  font-size: 50px;
+  margin: 0;
+  opacity: 1
+}
+
+.banner p {
+  color: #FF0909;
+  font-size: 50px;
+  opacity: 1
+}
+
+.button-blue {
+  background-color: #7B61FF;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  margin-bottom: 50px;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h3 {
+  margin-bottom: center;
+}
+
+.footer {
+  background: #7B61FF;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: #111111;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 15px;
+ justify-content: center;
+  margin: center;
+  justify-items: center;
+}
+/* Write some CSS below */
